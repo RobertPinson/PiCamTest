@@ -56,8 +56,11 @@
             <VariableName>PATH</VariableName>
             <Value>C:\SysGCC\Raspberry\bin;%PATH%</Value>
           </Record>
+          <Record>
+            <VariableName>CMAKE_PREFIX_PATH</VariableName>
+            <Value>E:\Code\opencv-3.4.0\Debug</Value>
+          </Record>
         </Records>
-        <EnvironmentSetupFiles />
       </Environment>
       <BackgroundMode xsi:nil="true" />
     </CMakeCommand>

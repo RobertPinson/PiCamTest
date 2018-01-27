@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2005
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PiCamTest", "PiCamTest\PiCamTest.vcxproj", "{4681D0F2-F93F-4361-8F91-9126529A649A}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -8,6 +8,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PiCamTest", "PiCamTest\PiCa
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RaspiCam", "RaspiCam\RaspiCam\RaspiCam.vcxproj", "{073D5536-FE7D-49AE-9D21-E3ACED77A920}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCVCameraDemo", "OpenCVCameraDemo\OpenCVCameraDemo.vcxproj", "{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,27 @@ Global
 		{073D5536-FE7D-49AE-9D21-E3ACED77A920}.RelWithDebInfo|x64.Build.0 = Release|Win32
 		{073D5536-FE7D-49AE-9D21-E3ACED77A920}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
 		{073D5536-FE7D-49AE-9D21-E3ACED77A920}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.Debug|VisualGDB.ActiveCfg = Debug|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.Debug|VisualGDB.Build.0 = Debug|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.Debug|x64.ActiveCfg = Debug|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.Debug|x86.Build.0 = Debug|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.MinSizeRel|VisualGDB.ActiveCfg = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.MinSizeRel|VisualGDB.Build.0 = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.MinSizeRel|x64.ActiveCfg = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.MinSizeRel|x64.Build.0 = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.MinSizeRel|x86.Build.0 = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.Release|VisualGDB.ActiveCfg = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.Release|x64.ActiveCfg = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.Release|x86.ActiveCfg = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.Release|x86.Build.0 = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.RelWithDebInfo|VisualGDB.ActiveCfg = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.RelWithDebInfo|VisualGDB.Build.0 = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.RelWithDebInfo|x64.Build.0 = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{0ABBEE2C-CFDA-4D8A-97D3-121922E1ECC6}.RelWithDebInfo|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

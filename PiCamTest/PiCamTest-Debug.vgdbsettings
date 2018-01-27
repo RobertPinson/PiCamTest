@@ -39,6 +39,14 @@
       <Command>$(ToolchainMake)</Command>
       <Arguments>$(ToolchainMakeArgs)</Arguments>
       <WorkingDirectory>$(BuildDir)</WorkingDirectory>
+      <Environment>
+        <Records>
+          <Record>
+            <VariableName>CMAKE_PREFIX_PATH</VariableName>
+            <Value>C:\SysGCC\Raspberry\arm-linux-gnueabihf\sysroot\usr\share\OpenCV</Value>
+          </Record>
+        </Records>
+      </Environment>
       <BackgroundMode xsi:nil="true" />
     </MakeCommandTemplate>
   </Build>

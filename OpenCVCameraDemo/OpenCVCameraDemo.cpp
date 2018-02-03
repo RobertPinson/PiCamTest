@@ -13,8 +13,8 @@ int main(int argc, char **argv)
 	const int frameDelay = 10, maxContours = 500;
 	raspicam::RaspiCam_Cv cam;
 	Mat image;
-	cam.set(CV_CAP_PROP_FRAME_WIDTH, 640);
-	cam.set(CV_CAP_PROP_FRAME_HEIGHT, 480);
+	cam.set(CV_CAP_PROP_FRAME_WIDTH, 800);
+	cam.set(CV_CAP_PROP_FRAME_HEIGHT, 600);
 	cam.set(CV_CAP_PROP_FORMAT,CV_8UC3);
 	cam.set(CV_CAP_PROP_FPS, 25);
 	

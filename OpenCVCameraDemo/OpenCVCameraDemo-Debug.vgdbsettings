@@ -46,9 +46,10 @@
         <Records>
           <Record>
             <VariableName>CMAKE_PREFIX_PATH</VariableName>
-            <Value>E:\Code\opencv-3.4.0\Debug;E:\Code\raspicam-0.1.6\build\Debug</Value>
+            <Value>..\..\..\..\opencv-3.4.0\Debug;..\..\..\..\raspicam-0.1.6\build\Debug</Value>
           </Record>
         </Records>
+        <EnvironmentSetupFiles />
       </Environment>
       <BackgroundMode xsi:nil="true" />
     </CMakeCommand>
@@ -60,7 +61,7 @@
   <Debug xsi:type="com.visualgdb.debug.remote">
     <AdditionalStartupCommands>
       <GDBPreStartupCommands>
-        <string>set solib-search-path E:\Code\raspicam-0.1.6\build\Debug\src;E:\Code\opencv-3.4.0\Debug\lib</string>
+        <string>set solib-search-path ..\..\..\raspicam-0.1.6\build\Debug\src;..\..\..\opencv-3.4.0\Debug\lib</string>
       </GDBPreStartupCommands>
       <GDBStartupCommands />
       <GDBFinalizationCommands />
@@ -68,14 +69,14 @@
     <AdditionalGDBSettings>
       <Features>
         <DisableAutoDetection>false</DisableAutoDetection>
-        <UseFrameParameter>false</UseFrameParameter>
-        <SimpleValuesFlagSupported>false</SimpleValuesFlagSupported>
-        <ListLocalsSupported>false</ListLocalsSupported>
-        <ByteLevelMemoryCommandsAvailable>false</ByteLevelMemoryCommandsAvailable>
-        <ThreadInfoSupported>false</ThreadInfoSupported>
-        <PendingBreakpointsSupported>false</PendingBreakpointsSupported>
-        <SupportTargetCommand>false</SupportTargetCommand>
-        <ReliableBreakpointNotifications>false</ReliableBreakpointNotifications>
+        <UseFrameParameter>true</UseFrameParameter>
+        <SimpleValuesFlagSupported>true</SimpleValuesFlagSupported>
+        <ListLocalsSupported>true</ListLocalsSupported>
+        <ByteLevelMemoryCommandsAvailable>true</ByteLevelMemoryCommandsAvailable>
+        <ThreadInfoSupported>true</ThreadInfoSupported>
+        <PendingBreakpointsSupported>true</PendingBreakpointsSupported>
+        <SupportTargetCommand>true</SupportTargetCommand>
+        <ReliableBreakpointNotifications>true</ReliableBreakpointNotifications>
       </Features>
       <EnableSmartStepping>false</EnableSmartStepping>
       <FilterSpuriousStoppedNotifications>false</FilterSpuriousStoppedNotifications>
@@ -93,6 +94,7 @@
       <DisableSignals>false</DisableSignals>
       <EnableAsyncExecutionMode>false</EnableAsyncExecutionMode>
       <EnableNonStopMode>false</EnableNonStopMode>
+      <MaxBreakpointLimit>0</MaxBreakpointLimit>
     </AdditionalGDBSettings>
     <LaunchGDBSettings xsi:type="GDBLaunchParametersNewInstance">
       <DebuggedProgram>$(TargetPath)</DebuggedProgram>
@@ -138,4 +140,5 @@
       <Enabled>false</Enabled>
     </CodeAnalyzerSettings>
   </CodeSense>
+  <ProgramArgumentsSuggestions />
 </VisualGDBProjectSettings2>

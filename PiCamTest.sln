@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCVCameraDemo", "OpenCVC
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FaceDetect", "FaceDetect\FaceDetect.vcxproj", "{799A7935-074B-4342-AB55-6346E5212008}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObjDetect", "ObjDetect\ObjDetect.vcxproj", "{E93D183A-E6FC-4603-8426-17ED63061FAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -110,6 +112,26 @@ Global
 		{799A7935-074B-4342-AB55-6346E5212008}.RelWithDebInfo|x64.Build.0 = Release|Win32
 		{799A7935-074B-4342-AB55-6346E5212008}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
 		{799A7935-074B-4342-AB55-6346E5212008}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.Debug|VisualGDB.ActiveCfg = Debug|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.Debug|x64.ActiveCfg = Debug|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.Debug|x86.ActiveCfg = Debug|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.Debug|x86.Build.0 = Debug|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.MinSizeRel|VisualGDB.ActiveCfg = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.MinSizeRel|VisualGDB.Build.0 = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.MinSizeRel|x64.ActiveCfg = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.MinSizeRel|x64.Build.0 = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.MinSizeRel|x86.Build.0 = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.Release|VisualGDB.ActiveCfg = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.Release|x64.ActiveCfg = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.Release|x86.ActiveCfg = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.Release|x86.Build.0 = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.RelWithDebInfo|VisualGDB.ActiveCfg = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.RelWithDebInfo|VisualGDB.Build.0 = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.RelWithDebInfo|x64.Build.0 = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{E93D183A-E6FC-4603-8426-17ED63061FAA}.RelWithDebInfo|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

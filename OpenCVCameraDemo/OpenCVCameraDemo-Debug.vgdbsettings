@@ -46,10 +46,9 @@
         <Records>
           <Record>
             <VariableName>CMAKE_PREFIX_PATH</VariableName>
-            <Value>..\..\..\..\opencv-3.4.0\Debug;..\..\..\..\raspicam-0.1.6\build\Debug</Value>
+            <Value>..\..\..\..\opencv-3.4.0\Debug;..\..\..\raspicam-0.1.6\build\Debug</Value>
           </Record>
         </Records>
-        <EnvironmentSetupFiles />
       </Environment>
       <BackgroundMode xsi:nil="true" />
     </CMakeCommand>
